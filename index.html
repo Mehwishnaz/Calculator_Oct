@@ -22,9 +22,9 @@
         <div class="container cal-app d-flex justify-content-center justify-content-md-center">
             <form name="form">
 
-                <div class="row form-control">
+                <div class="row d-flex form-control ">
                     <input class="form-control" type="text" placeholder="0" id="demo" />
-                    <input id="output" type="h1" />
+                    <input id="output" type="text" />
 
                 </div>
 
@@ -71,7 +71,7 @@
                     </BUTTON>
                     <button class="btn btn-outline-success " value="=" type="button"
                         onclick="output.value=eval(input.value)" > = </BUTTON>
-                    <button id="btn-back"  class="btn btn-outline-danger" type="button">&#9746;</button>
+                    <button onclick="back()"  class="btn btn-outline-danger" type="button">&#9746;</button>
 
                     <button class="btn btn-outline-primary" type="button" name="mulb" value="*"
                         onclick="calFunction(mulb.value)"> x

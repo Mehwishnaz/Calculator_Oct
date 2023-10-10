@@ -17,17 +17,8 @@ function sqrFunction(result) {
   var res = a;
   input.value = res;
 }
-let currentValue = '';
 
-function updateDisplay(result) {
-  currentValue += result;
-  document.getElementById('calculator-display').innerText = currentValue;
+function back() {
+  var value = input.value;
+  input.value = value.substr(0, value.length - 1);
 }
-
-function handleBackButton() {
-  currentValue = currentValue.slice(0, -1);
-  document.getElementById('').innerText = currentValue;
-}
-
-document.getElementById('btn-back').addEventListener('click', handleBackButton);
-
