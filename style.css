@@ -1,0 +1,54 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&family=Roboto:ital,wght@0,500;1,400&family=Vesper+Libre&display=swap');
+
+button[type=button] {
+	width: 60px;
+	height: 60px;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	margin: 5px;
+	box-sizing: border-box;
+	font-size: 30px;
+	line-height: 30px;
+	border-radius: 10%;
+	font-weight: 700;
+	cursor: pointer;
+}
+button[type=reset] {
+	width: 60px;
+	height: 60px;
+	float: left;
+	padding: 0;
+	margin: 5px;
+	box-sizing: border-box;
+	font-size: 30px;
+	font-family: 'Roboto Mono', monospace;
+	border-radius: 10%;
+	font-weight: 700;
+	cursor: pointer;
+}
+input[type=text] {
+	width: 100%;
+	height: 50%;
+	padding: 0px;
+	font-family: 'Vesper Libre', serif;	box-sizing: border-box;
+	text-align: left;
+	border: none;
+	font-weight: 500px;
+	font-size: 60px;
+	line-height: 0%;
+	margin:  0px;
+
+}
+input[type=h1] {
+	width: 100%;
+	height: 10%;
+	padding: 15px;
+	font-family: 'Vesper Libre', serif;	box-sizing: border-box;
+	border: none;
+	text-align: right;
+	font-weight: 500px;
+	font-size: 60px;
+	line-height: 0px;
+	margin:  0px;
+
+}
